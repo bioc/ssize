@@ -8,4 +8,5 @@ Description: Functions for computing and displaying sample size
 Maintainer: Gregory R. Warnes <Gregory.R.Warnes@pfizer.com>
 Depends: gdata, xtable
 License: LGPL
+biocViews: Statistics, Microarray, DifferentialExpression
 
