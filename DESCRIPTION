@@ -1,6 +1,6 @@
 Package: ssize
 Title: Estimate Microarray Sample Size
-Version: 1.15.0
+Version: 1.15.1
 Date: 2005-09-12
 Author: Gregory R. Warnes, Peng Liu, and Fasheng Li
 Description: Functions for computing and displaying sample size
@@ -8,4 +8,4 @@ Description: Functions for computing and displaying sample size
 Maintainer: Gregory R. Warnes <Gregory.R.Warnes@pfizer.com>
 Depends: gdata, xtable
 License: LGPL
-biocViews: Statistics, Microarray, DifferentialExpression
+biocViews: Bioinformatics, Microarray, DifferentialExpression
