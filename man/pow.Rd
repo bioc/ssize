@@ -57,7 +57,7 @@ delta.plot (x, xlab = "Fold Change",
 }
 \note{
 This code was intended to be used with data are on the log2 scale, in which case
-the delta can be set to becomes log2(fold-change).  Such data can be obtained by performing \code{sd(log2(x))} for each probeset. 
+the delta can be set to becomes log2(fold-change).
 }
 \value{
   \code{pow} returns a vector containing the power for each standard deviation.
@@ -76,7 +76,7 @@ Warnes GR and Fasheng Li
   American Statistical Association, Bethesda, MD, Sept 18-19, 2003.
   \url{http://www.warnes.net/Research/PresentationFolder/SampleSize.pdf}
 }
-\author{Gregory R. Warnes \email{Gregory\_R\_Warnes\@groton.pfizer.com}}
+\author{Gregory R. Warnes \email{greg@random-technologies-llc.com}}
 \seealso{
   \code{\link{ssize}},
   \code{\link{ssize.plot}},
