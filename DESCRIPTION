@@ -1,6 +1,6 @@
 Package: ssize
 Title: Estimate Microarray Sample Size
-Version: 1.19.0
+Version: 1.19.1
 Date: 2009-04-07
 Author: Gregory R. Warnes, Peng Liu, and Fasheng Li
 Description: Functions for computing and displaying sample size
