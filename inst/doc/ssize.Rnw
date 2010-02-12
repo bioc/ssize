@@ -390,8 +390,8 @@ all.delta  <- delta(sd=exp.sd, power=power, n=n,
 par(cex=1, mar=c(5.1,5.1,4,2))
 delta.plot(all.delta, lwd=2, col="magenta", xlim=c(1,10),
 	   ylab = paste("Proportion of Genes with ",
-	        	"Power >= 80\% \n",
-			"at Fold Change of \delta")
+	        	"Power >= 80% \n",
+			"at Fold Change of delta")
 )
 xmax <- par("usr")[2]-1; ymin <- par("usr")[3] + 0.05
 legend(x=xmax, y=ymin,
@@ -400,7 +400,7 @@ legend(x=xmax, y=ymin,
          "power=",power,",",
          "# genes=", nobs(exp.sd), sep=''), "," )[[1]],
        xjust=1, yjust=0, cex=0.90)
-title("Fold Change to Achieve 80\% Power")
+title("Fold Change to Achieve 80% Power")
 @ 
 \begin{figure}[H] 
   \caption[Given Sample Size, Fold Change (Effect Size) Necessary to
