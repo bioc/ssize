@@ -3,8 +3,8 @@ crit.fn  <- function(crit, ratio, df, ncp, tside)
     lratio <- log(ratio)
     
     temp <- log(tside) +
-            log(pt(crit, df,          lower=FALSE )) - 
-            log(pt(crit, df, ncp=ncp, lower=FALSE ))
+            log(pt(crit, df,          lower.tail=FALSE )) - 
+            log(pt(crit, df, ncp=ncp, lower.tail=FALSE ))
 
     abs(temp-lratio)
   }
