@@ -76,7 +76,7 @@ Warnes GR and Fasheng Li
   American Statistical Association, Bethesda, MD, Sept 18-19, 2003.
   \url{http://www.warnes.net/Research/PresentationFolder/SampleSize.pdf}
 }
-\author{Gregory R. Warnes \email{greg@random-technologies-llc.com}}
+\author{Gregory R. Warnes \email{greg@warnes.net}}
 \seealso{
   \code{\link{ssize}},
   \code{\link{ssize.plot}},
@@ -115,7 +115,7 @@ legend(x=xmax, y=ymax,
        legend= strsplit( paste("n=",n,",",
                               "fold change=",fold.change,",",
                               "alpha=", sig.level, ",",
-                              "# genes=", nobs(sd), sep=''), "," )[[1]],
+                              "# genes=", nobs(exp.sd), sep=''), "," )[[1]],
        xjust=1, yjust=1, cex=1.0)
 title("Power to Detect 2-Fold Change")
 
@@ -130,7 +130,7 @@ legend(x=xmax, y=ymin,
        legend= strsplit( paste("fold change=",fold.change,",",
                               "alpha=", sig.level, ",",
                               "power=",power,",",
-                              "# genes=", nobs(sd), sep=''), "," )[[1]],
+                              "# genes=", nobs(exp.sd), sep=''), "," )[[1]],
        xjust=1, yjust=0, cex=1.0)
 title("Sample Size to Detect 2-Fold Change")
 
@@ -147,7 +147,7 @@ legend(x=xmax, y=ymin,
        legend= strsplit( paste("n=",n,",",
                               "alpha=", sig.level, ",",
                               "power=",power,",",
-                              "# genes=", nobs(sd), sep=''), "," )[[1]],
+                              "# genes=", nobs(exp.sd), sep=''), "," )[[1]],
        xjust=1, yjust=0, cex=1.0)
 title("Fold Change to Achieve 80\% Power")
 }
