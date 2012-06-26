@@ -1,0 +1,12 @@
+importFrom("gdata", "nobs")
+
+export(
+       "delta",
+       "delta.plot",
+       "pow",
+       "power.plot",
+       "power.t.test.FDR",
+       "ssize",
+       "ssize.plot"
+       ) 
+

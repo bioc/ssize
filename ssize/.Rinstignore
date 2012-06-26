@@ -1,0 +1,7 @@
+doc/.*\.tex$
+doc/.*\.sty$
+doc/.*\.dtx$
+doc/.*\.Rnw$
+doc/.*\.log$
+doc/.*\.aux$
+doc/.*\.bst$
